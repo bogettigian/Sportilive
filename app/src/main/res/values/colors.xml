@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#004B37</color>
-    <color name="colorPrimaryDark">#002d19</color>
-    <color name="colorAccent">#196450</color>
+    <color name="colorPrimary">#282828</color>
+    <color name="colorPrimaryDark">#141414</color>
+    <color name="colorAccent">#323232</color>
+
+    <color name="colorBotonSU">#2d2d2d</color>
+    <color name="colorBotonSI">#555555</color>
+    <color name="colorBotonSombra">#141414</color>
+
+    <color name="colorTexto">#ffffff</color>
+
+
 </resources>
