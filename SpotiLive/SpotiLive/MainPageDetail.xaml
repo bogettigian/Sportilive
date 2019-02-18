@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SpotiLive.MainPageDetail">
+
+    <!--MAIN PAGE-->
+    <AbsoluteLayout>
+
+        <Image
+            Source="Background"
+            Aspect="AspectFill"
+            AbsoluteLayout.LayoutBounds="0.0, 0.0, 1.0, 1.0"
+            AbsoluteLayout.LayoutFlags="All"/>
+
+        <StackLayout
+            AbsoluteLayout.LayoutBounds="0.0, 0.0, 1.0, 1.0"
+            AbsoluteLayout.LayoutFlags="All"
+            Margin="7">
+
+            <ListView>
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+
+                            <Label Text="Hola Cathesita hermosa."
+                                HorizontalOptions="CenterAndExpand"
+                                VerticalOptions="CenterAndExpand"
+                                TextColor="White"
+                                FontSize="Large"/>
+
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+
+
+
+        </StackLayout>
+
+    </AbsoluteLayout>
+    
+</ContentPage>

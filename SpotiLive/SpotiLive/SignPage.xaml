@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SpotiLive.SignPage">
+
+    <!--SING PAGE-->
+    <AbsoluteLayout>
+
+        <Image
+            Source="Background"
+            Aspect="AspectFill"
+            AbsoluteLayout.LayoutBounds="0.0, 0.0, 1.0, 1.0"
+            AbsoluteLayout.LayoutFlags="All"/>
+
+        <StackLayout
+            AbsoluteLayout.LayoutBounds="0.0, 0.0, 1.0, 1.0"
+            AbsoluteLayout.LayoutFlags="All"
+            Margin="7">
+
+            <Frame  
+                OutlineColor="Gray"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="CenterAndExpand"
+                Margin="10"
+                CornerRadius="10"
+                Opacity="0.75">
+
+                <StackLayout>
+
+                    <Entry Placeholder="Email"
+                           x:Name="entryEmail"/>
+                    <Entry Placeholder="Pass"
+                           x:Name="entryPass"
+                           IsPassword="True"/>
+
+                </StackLayout>
+            </Frame>
+
+            <Label
+                Text=""
+                TextColor="Gray"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="Center"
+                x:Name="txtForgotPass"/>
+
+            <Button 
+                Text="SIGN UP"
+                BackgroundColor="DarkOliveGreen"
+                TextColor="White"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="End"
+                CornerRadius="10"
+                Clicked="Sign_Clicked"
+                x:Name="btnSign"/>
+
+        </StackLayout>
+
+    </AbsoluteLayout>
+
+</ContentPage>

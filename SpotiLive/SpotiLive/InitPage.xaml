@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SpotiLive"
+             x:Class="SpotiLive.InitPage">
+
+    <!--INIT PAGE-->
+    <AbsoluteLayout>
+
+        <Image
+            Source="Background"
+            Aspect="AspectFill"
+            AbsoluteLayout.LayoutBounds="0.0, 0.0, 1.0, 1.0"
+            AbsoluteLayout.LayoutFlags="All"/>
+
+        <StackLayout
+            AbsoluteLayout.LayoutBounds="0.0, 0.0, 1.0, 1.0"
+            AbsoluteLayout.LayoutFlags="All"
+            Margin="7">
+
+            <StackLayout 
+                VerticalOptions="EndAndExpand"
+                Orientation="Horizontal">
+                <Button 
+                    Text="Sign up"
+                    BackgroundColor="DarkOliveGreen"
+                    TextColor="White"
+                    HorizontalOptions="FillAndExpand"
+                    CornerRadius="10"
+                    Clicked="Signup_Clicked"/>
+                <Button 
+                    Text="Sign in"
+                    BackgroundColor="DarkOrange"
+                    TextColor="White"
+                    HorizontalOptions="FillAndExpand"
+                    CornerRadius="10"
+                    Clicked="Signin_Clicked"/>
+            </StackLayout>
+
+        </StackLayout>
+
+    </AbsoluteLayout>
+
+</ContentPage>
