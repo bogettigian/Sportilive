@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="SpotiLive.ChatPage">
+             x:Class="SpotiLive.SettingsPage">
 
-    <!--CHAT PAGE-->
+    <!--SETTINGS PAGE-->
     <AbsoluteLayout>
 
         <Image
@@ -17,10 +17,10 @@
             AbsoluteLayout.LayoutFlags="All"
             Margin="7">
 
-            <Label Text="CHAT PAGE"/>
+            <Label Text="SETTINGS PAGE"/>
 
         </StackLayout>
 
     </AbsoluteLayout>
-
+    
 </ContentPage>

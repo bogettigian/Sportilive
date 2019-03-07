@@ -33,11 +33,11 @@ namespace SpotiLive
             {
                 MenuItems = new ObservableCollection<MainPageMenuItem>(new[]
                 {
-                    new MainPageMenuItem { Page = new ChatPage(), Id = 0, Title = "CHATS" },
-                    new MainPageMenuItem { Page = new InitPage(), Id = 1, Title = "FRIENDS" },
-                    new MainPageMenuItem { Page = new SignPage(true), Id = 2, Title = "ACCOUNT" },
-                    new MainPageMenuItem { Page = new SignPage(true), Id = 3, Title = "CONFIGURATION" },
-                    new MainPageMenuItem { Page = new SignPage(true), Id = 4, Title = "SIGN OUT" },
+                    new MainPageMenuItem { Page = new SignPage(true), Id = 0, Title = "HOME"},
+                    new MainPageMenuItem { Page = new ChatPage(), Id = 1, Title = "CHATS" },
+                    new MainPageMenuItem { Page = new FriendPage(), Id = 2, Title = "FRIENDS" },
+                    new MainPageMenuItem { Page = new AccountPage(), Id = 3, Title = "ACCOUNT" },
+                    new MainPageMenuItem { Page = new SettingsPage(), Id = 4, Title = "SETTINGS" },
                 });
             }
             
